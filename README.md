@@ -1,2 +1,2 @@
 # HigggsPortfolio
-Portfolio of work for Baptiste &amp; Sebastien Higgs
+Portfolio of work for Baptiste Higgs
