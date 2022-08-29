@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-  const form = document.getElementById('my-form');
+  const form = document.getElementById('rsvpform');
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     const data = new FormData(form);
