@@ -1,0 +1,68 @@
+body {
+    background-color: #c9956d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vh;
+}
+
+form {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vh;
+}
+
+table {
+    color: white;
+    margin: auto;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+}
+
+th {
+    padding-bottom: 1em;
+    padding-right: 1em;
+    height: 3vh;
+}
+
+input {
+    line-height: 2vh;
+    font-size: 1.5vh;
+}
+
+select {
+    line-height: 2vh;
+    font-size: 1.5vh;
+}
+
+textarea {
+    line-height: 2vh;
+    font-size: 1.5vh;
+}
+
+button {
+    line-height: 2vh;
+    font-size: 1.5vh;
+    padding: 5px 10px 5px 10px;
+}
+
+#x {
+    position: absolute;
+    top: 0px;
+    right: 1vh;
+    font-size: 4vh;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

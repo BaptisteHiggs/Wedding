@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="x"><a href="Reception">&#10006;</a></section><br>
+  <form method="POST"
+    action="https://script.google.com/macros/s/AKfycbwJfhEc4rJbdymvXDjsypLtjn66lmElgNsm01NhN0_vsj8y6poa2Dib40dY2O7JS2c5Yg/exec"
+    id="rsvpform">
+    <p>RSVP</p>
+    <table>
+      <tr>
+        <th>Full name</th>
+        <th><input name="Name" type="text" placeholder="Full Name" required></th>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <th><input name="Email" type="email" placeholder="Email" required></th>
+      </tr>
+      <tr>
+        <th>Reception rsvp</th>
+        <th><select id="RSVP" name="RSVP">
+            <option value="coming">Coming</option>
+            <option value="notcoming">Can't make it</option>
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Dietary requirements</th>
+        <th><textarea id="DietaryRequirements" name="DietaryRequirements" rows="4"></textarea> <br><br></th>
+      </tr>
+    </table>
+    <button type="submit">Send</button>
+    <br><br><br><br>
+  </form>
+</body>
+
+</html>
