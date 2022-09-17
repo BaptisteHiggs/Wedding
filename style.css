@@ -1,5 +1,10 @@
+:root {
+    --background: #cba589;
+    --delay: all 0.2s;
+}
+
 body {
-    background-color: #cba589;
+    background-color: var(--background);
 }
 
 p {
@@ -95,6 +100,13 @@ a {
     max-width: 35em;
 }
 
+.textWithTitle {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.4vh;
+}
+
 .body {
     color: white;
     text-align: center;
@@ -111,4 +123,70 @@ a {
     height: 30%;
     width: 100%;
     display: block;
+}
+
+.title {
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 50px;
+    width: 40%;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: var(--delay);
+    -moz-transition: var(--delay);
+    transition: var(--delay);
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: var(--delay);
+    -moz-transition: var(--delay);
+    transition: var(--delay);
+}
+
+/* Pseudo elements for icons */
+.btn:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+    color: var(--background);
+    background: #fff;
 }
