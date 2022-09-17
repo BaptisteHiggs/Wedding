@@ -6,21 +6,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand&amp;display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <section id="x"><a href="Reception">&#10006;</a></section><br>
+<body class="formBody">
+  <section id="x"><a href="Reception.html">&#10006;</a></section><br>
   <form method="POST"
     action="https://script.google.com/macros/s/AKfycbwJfhEc4rJbdymvXDjsypLtjn66lmElgNsm01NhN0_vsj8y6poa2Dib40dY2O7JS2c5Yg/exec"
     id="rsvpform">
-    <p>RSVP</p>
+    <p class="rsvpTitle">RSVP</p>
     <table class="form">
       <tr>
         <th class="form">Full name</th>
         <th class="form"><input name="Name" type="text" placeholder="Full Name" required></th>
       </tr>
+      <tr height="20px"></tr>
       <tr>
         <th class="form">Email</th>
         <th class="form"><input name="Email" type="email" placeholder="Email" required></th>
       </tr>
+      <tr height="20px"></tr>
       <tr>
         <th class="form">Reception rsvp</th>
         <th class="form"><select id="RSVP" name="RSVP">
@@ -29,12 +31,13 @@
           </select>
         </th>
       </tr>
+      <tr height="20px"></tr>
       <tr>
-        <th class="form">Dietary requirements</th>
+        <th class="form">Dietary requirements&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
         <th class="form"><textarea id="DietaryRequirements" name="DietaryRequirements" rows="4"></textarea> <br><br></th>
       </tr>
     </table>
-    <button type="submit">Send</button>
+    <button type="submit" class="btn btn-1 btn-1a">Send</button>
     <br><br><br><br>
   </form>
 </body>

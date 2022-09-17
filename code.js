@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      window.location.href = 'received.html';
+      window.location.href = 'Received.html';
     })
   });
 });

@@ -49,34 +49,13 @@ table .form {
     margin: auto;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-    font-size: 2vh;
+    font-size: 2.6vh;
 }
 
 th .form {
     padding-bottom: 1em;
     padding-right: 1em;
     height: 3vh;
-}
-
-input {
-    line-height: 2vh;
-    font-size: 1.5vh;
-}
-
-select {
-    line-height: 2vh;
-    font-size: 1.5vh;
-}
-
-textarea {
-    line-height: 2vh;
-    font-size: 1.5vh;
-}
-
-button {
-    line-height: 2vh;
-    font-size: 1.5vh;
-    padding: 5px 10px 5px 10px;
 }
 
 #x {
@@ -139,7 +118,7 @@ a {
     color: inherit;
     background: none;
     cursor: pointer;
-    padding: 25px 50px;
+    padding: 25px;
     width: 40%;
     display: inline-block;
     margin: 15px 30px;
@@ -189,4 +168,39 @@ a {
 .btn-1a:active {
     color: var(--background);
     background: #fff;
+}
+
+.formBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rsvpform {
+    max-width: 35em;
+}
+
+input {
+    line-height: 2.6vh;
+    font-size: 2vh;
+}
+
+select {
+    line-height: 2.6vh;
+    font-size: 2vh;
+}
+
+textarea {
+    line-height: 2vh;
+    font-size: 2vh;
+}
+
+button {
+    line-height: 2vh;
+    font-size: 1.5vh;
+    padding: 5px 10px 5px 10px;
+}
+
+.rsvpTitle {
+    font-size: 2.4em;
 }
