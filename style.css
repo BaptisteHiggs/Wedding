@@ -1,15 +1,14 @@
 body {
-    background-color: #c9956d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #cba589;
 }
 
 p {
     color: white;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 3vh;
+    font-size: 2.4vh;
+    max-width: 35em;
+    display: block;
 }
 
 form {
@@ -19,7 +18,14 @@ form {
     font-size: 3vh;
 }
 
-table {
+section .centrify {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+table .details {
     color: white;
     margin: auto;
     text-align: left;
@@ -27,7 +33,21 @@ table {
     font-size: 2vh;
 }
 
-th {
+th .details {
+    padding-bottom: 1em;
+    padding-right: 1em;
+    height: 3vh;
+}
+
+table .form {
+    color: white;
+    margin: auto;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+}
+
+th .form {
     padding-bottom: 1em;
     padding-right: 1em;
     height: 3vh;
@@ -65,4 +85,30 @@ button {
 a {
     color: white;
     text-decoration: none;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.4vh;
+    max-width: 35em;
+}
+
+.body {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 1.2em;
+}
+
+#emptyHeight {
+    height: 30%;
+    width: 100%;
+    display: block;
 }
